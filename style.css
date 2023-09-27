@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:lightcyan ;
+}
+
+.listagem {
+  background-color: lightblue;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+input {
+  padding: 10px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  width: 100%;
+}
+
+button {
+  background-color: aqua;
+  color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(129, 255, 255);
+}
