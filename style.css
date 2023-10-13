@@ -1,26 +1,19 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    padding: 20px;
     height: 150px;
     background-color: lightblue;
 }
 
 .card {
     width: 100%;
-    height: 120px;
     text-align: center;
     padding: 10px;
 }
 
-input {
-    padding: 12px;
-    font-size: 15px;
-    border: none;
-    border-radius: 5px;
-    outline: none;
-}
-
 .title {
+    padding: 15px;
     font-size: 1.2rem;
     padding-bottom: 5px;
     border-bottom: 1px solid black;
@@ -33,9 +26,19 @@ ul {
 
 li {
     background-color: skyblue;
-    margin: 5px;
+    margin: 10px;
     padding: 10px;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    padding: 12px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
 }
 
 button {
